@@ -105,7 +105,8 @@ public class Game extends Applet implements KeyListener, MouseListener,MouseMoti
 		
 		while(start){//dont stop
 			
-			road.y += 10;
+			//road.y += 10;
+			
 			
 			if(space_pressed){
 				
@@ -115,7 +116,7 @@ public class Game extends Applet implements KeyListener, MouseListener,MouseMoti
 				
 				
 			if(upPressed){
-			
+				road.moveUpBy(10);
 			}
 			
 			
